@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_left"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.sanrenx.funny.widget.RoundButton
+        android:id="@+id/rb_joke"
+        android:layout_width="64dip"
+        android:layout_height="64dip"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:src="@drawable/left_icon_text"
+        app:button_color="#0066CC"
+        app:button_pressed_ring_width="8dip" />
+
+    <com.sanrenx.funny.widget.RoundButton
+        android:id="@+id/rb_discovery"
+        android:layout_width="64dip"
+        android:layout_height="64dip"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:src="@drawable/left_icon_picture"
+        app:button_color="#FFCC00"
+        app:button_pressed_ring_width="8dip" />
+
+    <com.sanrenx.funny.widget.RoundButton
+        android:id="@+id/rb_profile"
+        android:layout_width="64dip"
+        android:layout_height="64dip"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:src="@drawable/left_icon_audio"
+        app:button_color="#FF3300"
+        app:button_pressed_ring_width="8dip" />
+
+    <com.sanrenx.funny.widget.RoundButton
+        android:id="@+id/rb_settings"
+        android:layout_width="64dip"
+        android:layout_height="64dip"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:src="@drawable/left_icon_setting"
+        app:button_color="#99CC33"
+        app:button_pressed_ring_width="8dip" />
+
+</LinearLayout>

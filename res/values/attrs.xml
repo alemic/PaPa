@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 横向listview -->
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+    </declare-styleable>
+    <!-- GIF动画 -->
+    <declare-styleable name="GIfImageView">
+        <attr name="auto_play" format="boolean"></attr>
+    </declare-styleable>
+    <!-- 圆形按钮 -->
+    <declare-styleable name="RoundButton">
+        <attr name="button_color" format="color" />
+        <attr name="button_pressed_ring_width" format="dimension" />
+    </declare-styleable>
+    <!-- 滑动开关 -->
+    <declare-styleable name="SwitchButton">
+        <attr name="frameDrawable" format="reference|color" />
+        <attr name="stateDrawable" format="reference|color" />
+        <attr name="stateMaskDrawable" format="reference|color" />
+        <attr name="sliderDrawable" format="reference|color" />
+        <attr name="withTextInterval" format="dimension" />
+    </declare-styleable>
+
+</resources>

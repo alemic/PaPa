@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/nav_desc"
+        android:src="@drawable/nav_icon_back_normal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rl_weibo"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="40dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/login_logo" />
+
+    <RelativeLayout
+        android:id="@+id/rl_weibo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="15dp"
+        android:background="@drawable/btn_white_selector"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawableLeft="@drawable/login_weibo"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="@string/login_weibo"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_qq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_weibo"
+        android:layout_centerVertical="true"
+        android:layout_margin="15dp"
+        android:background="@drawable/btn_white_selector"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawableLeft="@drawable/login_qq"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="@string/login_qq"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_qq"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:drawablePadding="5dp"
+        android:drawableTop="@drawable/pull_up"
+        android:text="@string/login_email"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>
